@@ -1,7 +1,7 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    adsense-info (1.0.0)
+    adsense-info (1.0.2)
       hpricot
       mechanize
     configuration (1.2.0)
@@ -39,7 +39,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  adsense-info
+  adsense-info (>= 1.0.2)
   heroku
   shotgun
   sinatra
