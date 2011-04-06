@@ -1,3 +1,9 @@
-<p>The <a target="_blank" href="http://www.darkarts.co.za">DarkArts Studios website</a> has made <em><%= @today_so_far %></em> Adsense income today so far.</p>
+<p>The <a target="_blank" href="http://www.darkarts.co.za">DarkArts Studios website</a>'s Adsense revenue is currently:</p>
+<ul>
+  <li><em><%= @today_so_far %></em> today so far.</li>
+  <li><em><%= @yesterday %></em> yesterday.</li>
+  <li><em><%= @this_month_so_far %></em> this month so far.</li>
+  <li><em><%= @last_month %></em> last month.</li>
+</ul>
+
 <p>The above amount is always reflected in the Google Account Holder's own currency, which in my case is in South African Rand (ZAR).</p>
-<p>See how much <%= @today_so_far %> is, in US dollars <a target="_blank" href="http://www.google.co.za/search?q=<%=@today_so_far.match(/[0-9.]+/)[0]%>+ZAR+to+USD">here</a>.</p>
